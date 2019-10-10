@@ -1,0 +1,63 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    705193.qb3
+Username:  mhe016
+Group:     latechusers
+Date:      09-Oct-2019 20:50
+Node:      qb054 (99180)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb054
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb054 20:50:25 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 20:50:25
+------------------------------------------------------
+Run with 4 threads:
+Local Sum on P#0 is 1642668640.
+the total sum is 0.
+Time Elapsed is 0.004532 secs.
+Local Sum on P#1 is 1645168640.
+Local Sum on P#2 is 1647668640.
+Local Sum on P#3 is 1650168640.
+Run with 8 threads:
+Local Sum on P#0 is 818834320.
+the total sum is 0.
+Time Elapsed is 0.007385 secs.
+Local Sum on P#1 is 820084320.
+Local Sum on P#2 is 821334320.
+Local Sum on P#3 is 822584320.
+Local Sum on P#4 is 823834320.
+Local Sum on P#5 is 825084320.
+Local Sum on P#6 is 826334320.
+Local Sum on P#7 is 827584320.
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 20:50:27
+------------------------------------------------------
+Checking node qb054 (MS)
+Checking node qb054 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 20:50:29
+------------------------------------------------------
+Exit Status:     0
+Job ID:          705193.qb3
+Username:        mhe016
+Group:           latechusers
+Job Name:        Lab2-Q3
+Session Id:      99179
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:03,mem=0kb,vmem=0kb,walltime=00:00:02
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb054
+Process id:      99814
+------------------------------------------------------

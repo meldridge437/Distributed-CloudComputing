@@ -1,6 +1,6 @@
-#include <stdio,h>
+#include <stdio.h>
 #include <time.h> 
-#include "mpi.h"
+#include <mpi.h>
 
 int main(int argc, char *argv[]) {
 	int rank,size;
@@ -12,9 +12,10 @@ int main(int argc, char *argv[]) {
 	
 	double start = MPI_Wtime();
 	if (rank==0)
-		strcpy(message, "hello, droz drom #0!\n");
+		strcpy(message, "Hello, Matthew from #");
 	MPI_Bcast(message,22,MPI_CHAR,0,MPI_COMM_WORLD);
-	printf("Message at proc#%2d:%.21s\n",rankmessage);
+	printf("%s%2d\n",message,rank);
+	MPI_Barrier(MPI_COMM_WORLD);
 	double end = MPI_Wtime();
 	if (rank==0){
 		printf("Time Elapsed is %f seconds.\n",end-start);

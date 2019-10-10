@@ -1,0 +1,11 @@
+#!/bin/bash
+
+gcc -o q1 q1.c
+for i in {2..5}
+do
+	mpicc -o q$i q$i.c
+done
+for j in {1..5}
+do
+	qsub sub_q$j
+done

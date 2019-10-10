@@ -1,6 +1,6 @@
-#include <stdio,h>
+#include <stdio.h>
 #include <time.h> 
-#include "mpi.h"
+#include <mpi.h>
 
 int main(int argc, char *argv[]) {
 	int rank,size, type=99;
@@ -12,14 +12,14 @@ int main(int argc, char *argv[]) {
 	MPI_Comm_size(MPI_COMM_WORLD,&size);
 	
 	double start = MPI_Wtime();
-	sprintf(m2,"hello, droz from #%2d!\n",rank);
+	sprintf(m2,"hello, droz from #%d!\n",rank);
 	if (rank==0){
 		MPI_Send(m2,23,MPI_CHAR,1,type,MPI_COMM_WORLD);
 		MPI_Recv(m1,23,MPI_CHAR,size-1,type,MPI_COMM_WORLD,&status);
-		printf("Message at proc #%2d: %.22s\n", rank,m1);
+		printf("Message at P#%d: %.22s\n", rank,m1);
 	}	else {
 		MPI_Recv(m1,23,MPI_CHAR,size-1,type,MPI_COMM_WORLD,&status);
-		printf("Message at proc #%2d: %.22s\n", rank,m1);
+		printf("Message at P#%d: %.22s\n", rank,m1);
 		MPI_Send(m2,23,MPI_CHAR,1,type,MPI_COMM_WORLD);
 	}
 	double end = MPI_Wtime();

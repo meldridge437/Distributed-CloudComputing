@@ -1,0 +1,47 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    705191.qb3
+Username:  mhe016
+Group:     latechusers
+Date:      09-Oct-2019 20:50
+Node:      qb036 (39665)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb036
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb036 20:50:02 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 09-Oct-2019 20:50:02
+------------------------------------------------------
+the total sum is 504981277.000000.
+Time Elapsed is 0.020000 secs.
+------------------------------------------------------
+Running PBS epilogue script    - 09-Oct-2019 20:50:03
+------------------------------------------------------
+Checking node qb036 (MS)
+Checking node qb036 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 09-Oct-2019 20:50:04
+------------------------------------------------------
+Exit Status:     0
+Job ID:          705191.qb3
+Username:        mhe016
+Group:           latechusers
+Job Name:        Lab2-Q1
+Session Id:      39664
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:03
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb036
+Process id:      40277
+------------------------------------------------------
