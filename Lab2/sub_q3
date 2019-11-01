@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -A loni_cyen405
+#PBS -l walltime=01:00:00
+#PBS -l nodes=1:ppn=20
+#PBS -N Lab2-Q3 
+#PBS -o q3.out
+#PBS -e q3.err
+#PBS -q workq
+
+work="/home/mhe016/lab2"
+MPIFILE="q3"
+cd $work
+
+for i in {1..20}
+do
+	mpirun -machinefile $PBS_NODEFILE -np $i ./$MPIFILE 
+	echo ""
+done

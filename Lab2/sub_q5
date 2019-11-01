@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -A loni_cyen405
+#PBS -l walltime=01:00:00
+#PBS -l nodes=1:ppn=20
+#PBS -N Lab2-Q5 
+#PBS -o q5.out
+#PBS -e q5.err
+#PBS -q workq
+
+work="/home/mhe016/lab2"
+MPIFILE="q5"
+cd $work
+echo "run with 4 threads"
+mpirun -machinefile $PBS_NODEFILE -np 4 ./$MPIFILE
+echo "run with 8 threads"
+mpirun -machinefile $PBS_NODEFILE -np 8 ./$MPIFILE
