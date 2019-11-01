@@ -1,0 +1,23 @@
+2a)
+Process exited with code: 0
+
+2b)
+Existing buckets: 
+ lab4q2a-bucket
+
+2c)
+Process exited with code: 0
+
+2d)
+Process exited with code: 0
+(README2.md popped up in the environment tab)
+
+2e)
+https://lab4q2a-bucket.s3.amazonaws.com/README.md?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2HGS5TK3I6ZVF4XX%2F20191101%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20191101T134751Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMiJIMEYCIQCpoPn8yl9i9wqWK1Mj4Lg1Q4juHcV4L4F3bkL53c6njAIhAJP%2Fz61e7WfJ0wsBOWfeiS9WpC7U3XS78%2FxBZQGrxp12KsACCO7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNzAyNjY5NDk0OTY2IgyMg3d5MFqJQeSQE4MqlAJ3oNBP9Y%2F3KGy9MXuDFkWFU4D6MH7i%2FRnUQoy7wudDZT%2FHttRfOnF4WEytfp%2Fk9SH8wTxTry5ylt26JFYcctqOp9MwVORawRfconXTa2mCc7w3kjKaUeFHpbdeXbuGa2%2FZWMUYUds%2FV4gsANBEJiAx8Q%2F8eRB83GxCcwxU4mFa6z%2F8xgMTsY0CYOGhlzgrEowyuWaABGySbrRKMy%2Fqm52XIfWZg6q%2FpBDNQQxmBuSvjODykV1z%2BVQfJ634wxTqryMMvpunxajHs94ZtFraBdMny0POQi6RBJBphygg3er1hZ%2FUVFZQitKqXzK%2Fb2EG7aywiJRrBCan1%2F3B0vplvCB42C%2FPoruOzgt7r8TxpfGse%2BBNzFYwy9%2Fw7QU66gK%2FS7vMjv1%2Fu%2FdkVTLjKd4ogN7ME2vaVWDQo3Fsv0UA1%2BWmmryfFTNtTJQqVhIfCxPQCYePv5BrbGSJr4p2H%2BSFil%2BVFXDopdsOOossHJxkSJgcpADaYw2mqmFHF75FWEStpn14bTQD9gYFPsR%2F6qwuq0dwf82%2BgicvrKfUJbUHd8owIlQ9xw0mA2PzNuMZ0YFpTLlDIrmkQU8tMJW0BjqgAK83vrKwffkB8PzHLS%2F3F5GlWgQcSELBjhENxHCiOS%2FRQYl9eCajLG5KVX%2BW9EmpCmPukxGB0pk2XWUz%2BLSrnH3rVFi1zkmRZ7Z0q4H3PnSdvV%2BRqx6F9tNhBrFAmJK%2FBGR8Ju863mQ%2FwGXnMZ6QOlNcmSFpGfCxbNp5FwGvz%2BW%2BiC6uuiM3h6hpB0jUmCxMBdvf5EOZvNBcYge6l5n3HUnu%2BtOj9HPDmxmK2vHTiwrqGhpzSatgov3CTE3pdg%2Br4lw0PnkQtKUSbw%3D%3D&X-Amz-Signature=d4ef2606573fce188fd85312f5d460322b64193d02f66253ef2d5a2b567d1598
+
+2f)
+{"Version":"2012-10-17","Statement":[{"Sid":"AddPerm","Effect":"Allow","Principal":"*","Action":"s3:GetObject","Resource":"arn:aws:s3:::lab4q2a-bucket/*"}]}
+
+2g)
+{'ResponseMetadata': {'RequestId': '189F273D99C18FAB', 'HostId': 'Yp8vQWAByPVtjNAZ3i2uvPrxJxcIqXtyYPB+3o39D6G0tqKWbjDDxr5RCun0lfERpNHVkt8zLIw=', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amz-id-2': 'Yp8vQWAByPVtjNAZ3i2uvPrxJxcIqXtyYPB+3o39D6G0tqKWbjDDxr5RCun0lfERpNHVkt8zLIw=', 'x-amz-request-id': '189F273D99C18FAB', 'date': 'Fri, 01 Nov 2019 13:54:02 GMT', 'content-type': 'application/xml', 'transfer-encoding': 'chunked', 'server': 'AmazonS3'}, 'RetryAttempts': 0}, 'Owner': {'ID': 'ecaefdcf5efebe2e198caad8bc993f7307827d1c3181baf4a6fa6019c5294228'}, 'Grants': [{'Grantee': {'ID': 'ecaefdcf5efebe2e198caad8bc993f7307827d1c3181baf4a6fa6019c5294228', 'Type': 'CanonicalUser'}, 'Permission': 'FULL_CONTROL'}]}
+
